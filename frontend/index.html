@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS AI Chatbot</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        🤖 AWS AI Chatbot
+    </div>
+
+    <div id="chat-box">
+
+        <div class="bot">
+            👋 <b>Welcome!</b><br><br>
+
+            I'm your AI Assistant.<br><br>
+
+            Ask me anything about:
+            <ul>
+                <li>AWS Cloud</li>
+                <li>Artificial Intelligence</li>
+                <li>Programming</li>
+                <li>Python</li>
+                <li>Technology</li>
+                <li>General Knowledge</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="input-area">
+
+        <input
+            id="message"
+            type="text"
+            placeholder="Type your message..."
+            autocomplete="off">
+
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
+    </div>
+
+    <div class="footer">
+        Powered by AWS Lambda • API Gateway • Gemini API
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
